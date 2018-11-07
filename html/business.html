@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/business.css">
+	
+</head>
+<body>
+	<div class="wrapper">
+		<img src="images/Business license.jpg" alt="" id="clickImg" width="400px" height="578px">
+	</div>
+	<script>
+		var i=0;
+		clickImg.onclick=function(){
+			if(i%2==0){
+				this.style.cursor='zoom-out'
+				this.style.width='623px'
+				this.style.height='900px'
+				this.style.marginLeft='-310px'
+				this.style.marginTop='-450px'
+			}else{
+				this.style.cursor='zoom-in'
+				this.style.width='400px'
+				this.style.height='578px'
+				this.style.marginLeft='-200px'
+				this.style.marginTop='-289px'
+			}
+			i++;
+		}
+	</script>
+</body>
+</html>

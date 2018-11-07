@@ -1,0 +1,154 @@
+/*
+* @Author: admin
+* @Date:   2018-09-06 10:19:43
+* @Last Modified by:   admin
+* @Last Modified time: 2018-09-06 18:51:15
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	min-width: 1200px;
+}
+.header{
+	width: 100%;
+	height: 79px;
+	border-bottom: 2px solid #5fc323;
+}
+.header .header-con{
+	width: 882px;
+	height: 79px;
+	margin: 0px auto;
+}
+.header-con .logo{
+	width: 220px;
+	height: 59px;
+	margin-top: 10px;
+	border-right: 1px solid #c7c7c7;
+	float: left;
+	line-height: 55px;
+}
+.header-con .logo a{
+	font-size: 44px;
+	color: #000;
+	font-weight: 600;
+}
+.header-con .logo-txt{
+	width: 95px;
+	height: 45px;
+	margin-top: 15px;
+	float: left;
+	margin-left: 60px;
+}
+.logo-txt a{
+	font-size: 14px;
+	color: #4fb3be;
+}
+.logo-txt p{
+	font-size: 26px;
+	color: #176e8f;
+	font-weight: 600;
+	line-height: 20px;
+}
+.content{
+	width: 882px;
+	margin: 0px auto;
+}
+.content h1{
+	font-size: 42px;
+    color: #004676;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: center;
+}
+.content .privacy{
+	width: 882px;
+	height: 120px;
+	background-color: #004676;
+	margin: 0px auto;
+	border-radius: 3px;
+
+}
+.content .privacy img{
+	text-align: center;
+	margin-top: 31.5px;
+	float: left;
+	margin-left: 80px;
+}
+.content .privacy span{
+	line-height: 120px;
+	margin-left: 80px;
+	color: #fff;
+	opacity: 0.9;
+}
+.privacy-txt{
+	margin-top: 30px;
+}
+.feedback{
+	width: 100%;
+	line-height: 56px;
+	margin-top: 20px;
+}
+.feedback a{
+	color: #2074e5;
+	font-size: 16px;
+}
+.feedback a:hover{
+	color: #004676;
+}
+.feedback button{
+	color: #2074e5;
+	width: 166px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #fff;
+	border:1px solid #000;
+	float: right;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #000;
+}
+.feedback button:hover{
+	background-color: #004676;
+	color: #fff;
+}
+.privacy-con{
+	width: 100%;
+}
+.privacy-con h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #004676;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.privacy-con p{
+	line-height: 36px;
+	color: #555555;
+}
+.privacy-con p a{
+	color: #2074e5;
+}
+.privacy-con p a:hover{
+	color: #004676;
+}
+.footer{
+	word-spacing: 100%;
+	background-color: #f7f8ff;
+	height: 48px;
+	text-align: center;
+}
+.footer a{
+	width: 172px;
+	line-height: 48px;
+	text-align: center;
+	display: inline-block;
+	color: #555555;
+}
+.footer a:hover{
+	color: #004676;
+}

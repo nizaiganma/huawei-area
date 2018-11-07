@@ -1,0 +1,61 @@
+/*
+* @Author: admin
+* @Date:   2018-09-06 15:11:34
+* @Last Modified by:   admin
+* @Last Modified time: 2018-09-06 16:10:11
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+body{
+	min-width: 1200px;
+	background-color: #f2f2f2
+}
+.wrapper{
+	width: 960px;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	margin-top: 50px;
+}
+.header{
+	width: 100%;
+}
+.content{
+	width: 100%;
+	background-color: #fff;
+	margin-top: -4px;
+}
+.content-con{
+	width: 764px;
+	margin: 0px auto;
+	line-height: 23px;
+	padding-bottom: 50px;
+}
+.content-con h4{
+	font-size: 14px;
+}
+.content-con p{
+	font-size: 14px;
+}
+.content-con p a{
+	color: #0000ee;
+}
+.content-con-h4{
+	margin-top: 45px;
+}
+.footer{
+	width: 960px;
+	margin: 0px auto;
+	font-size: 12px;
+	line-height: 36px;
+	text-align: center;
+}
+.footer a{
+	color: #551a8b;
+}
